@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-6</title>
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <nav class="navbar">
+        <div class="navbar-logo"><p>Maneesh</p></div>
+        <!-- Hamburger Menu Button (Mobile Only) -->
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <ion-icon class="hamburger" name="reorder-two-outline"></ion-icon>
+          <ion-icon class="close-icon" name="close-outline"></ion-icon>
+        </button>
+        <ul class="navbar-menu">
+          <li class="navbar-item"><a href="#">Home</a></li>
+          <li class="navbar-item"><a href="#about">About</a></li>
+          <li class="navbar-item"><a href="#projects">Projects</a></li>
+          <li class="navbar-item"><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-wrapper">
+        <div class="hero-text">
+          <h1 class="hero-title">HI, I AM Maneesh.</h1>
+          <p class="hero-description">
+            A Sydney based front-end developer passionate about building
+            accessible and user friendly websites.
+          </p>
+          <div class="hero-actions">
+            <a href="./about.html"></a><button class="hero-cta">CONTACT ME</button></a>
+            <div class="icon-container">
+              <a href="https://www.linkedin.com/in/maneesh-n-429b76262/"> <img src="./images/linkedin (1).png" alt="" /></a>
+            </div>
+            <div class="icon-container">
+              <a href="https://github.com/nmaneesh-1"> <img src="./images/github-logo (1).png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img
+            src="./images/image11.png"
+            alt="Developer portrait"
+            class="hero-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="projects-wrapper">
+        <div class="projects-header">
+          <h1 class="projects-title">FEATURED PROJECTS</h1>
+          <p class="projects-description">
+            Here are some of the selected projects that showcase my passion for
+            front-end development.
+          </p>
+        </div>
+
+        <!-- PROJECT CARD -->
+        <div class="project-card">
+          <div class="project-media">
+            <p class="project-tag">Conceptual Work</p>
+            <div class="image-container-project">
+              <div class="project-image-container">
+                <img
+                  src="./images/instastore.png"
+                  alt=""
+                  class="project-image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-details">
+              <div class="project-text">
+                <p class="project-name">
+                 InstaStore – SaaS Landing page
+                </p>
+                <p class="project-summary">
+                   Designed and developed a conversion-focused landing page for an Instagram-based
+          e-commerce platform. Built responsive sections for features, pricing, testimonials,
+          and onboarding flow with clean UI hierarchy and reusable components.
+                </p>
+              </div>
+
+              <p class="project-meta-title">Project Info</p>
+
+              <div class="project-meta">
+                <p>Year</p>
+                <p>2025</p>
+              </div>
+
+              <div class="project-meta">
+                <p>Role</p>
+                <p>Front-end Developer</p>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <div class="links">
+                <a href="https://instastore-opal.vercel.app/">LIVE DEMO </a>
+                <ion-icon class="live" name="arrow-forward-outline"></ion-icon>
+              </div>
+              <div class="links">
+                <a href="#"> SEE ON GITHUB </a>
+                <ion-icon class="git" name="logo-github"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DUPLICATE PROJECT CARDS (structure preserved) -->
+        <div class="project-card">
+          <div class="project-media">
+            <div class="image-container-project">
+              <div class="project-image-container">
+                <img
+                  src="./images/ox-digitallab.png"
+                  alt=""
+                  class="project-image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-details">
+              <div class="project-text">
+                <p class="project-name">Xo Digital Lab – Agency Website</p>
+                <p class="project-summary">
+                  Built a modern agency website highlighting services, value propositions, and
+          client trust indicators. Focused on layout consistency, accessible typography,
+          and responsive card-based sections for clear content scanning.
+                </p>
+              </div>
+
+              <p class="project-meta-title">Project Info</p>
+
+              <div class="project-meta">
+                <p>Client</p>
+                <p>World Wide</p>
+              </div>
+              <div class="project-meta">
+                <p>Year</p>
+                <p>2025</p>
+              </div>
+
+              <div class="project-meta">
+                <p>Role</p>
+                <p>Front-end Developer</p>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <div class="links">
+                <a href="https://xo-digital-labs-blush.vercel.app/"
+                  >VIEW PROJECT</a
+                >
+                <ion-icon class="live" name="arrow-forward-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-media">
+            <p class="project-tag">Chanllenge</p>
+            <div class="image-container-project">
+              <div class="project-image-container">
+                <img src="./images/ox-grow.png" alt="" class="project-image" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="project-details">
+              <div class="project-text">
+                <p class="project-name">Xo Grow – Referral & Earnings Platform</p>
+                <p class="project-summary">
+                   Developed a multi-section platform interface explaining the referral workflow,
+          earnings process, and FAQs. Implemented step-based layouts, call-to-action
+          sections, and mobile-friendly design for clarity and usability.
+                </p>
+              </div>
+
+              <p class="project-meta-title">Project Info</p>
+
+              <div class="project-meta">
+                <p>Year</p>
+                <p>2025</p>
+              </div>
+
+              <div class="project-meta">
+                <p>Role</p>
+                <p>Front-end Developer</p>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <div class="links">
+                <a href="https://xogrow.vercel.app/">LIVE DEMO </a>
+                <ion-icon class="live" name="arrow-forward-outline"></ion-icon>
+              </div>
+              <div class="links">
+                <a href="https://github.com/nmaneesh-1/Xo-Grow.git">
+                  SEE ON GITHUB
+                </a>
+                <ion-icon class="git" name="logo-github"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <h1 class="testimonials-title">Kind words from satisfied clients</h1>
+      <div class="testimonials-wrapper">
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            Maneesh did an excellent job building our InstaStore landing page.
+        The layout is clean, responsive, and clearly communicates the product.
+        He was proactive with suggestions and delivered everything on time.
+          </p>
+          <div class="testimonial-user">
+            <img src="./images/avatar1.jpg" alt="" class="testimonial-avatar" />
+            <p class="testimonial-name">Ankit Sharma</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+             Working with Maneesh was smooth from start to finish.
+        He translated our ideas into a professional agency website with strong
+        visual hierarchy and great attention to detail.
+          </p>
+          <div class="testimonial-user">
+            <img src="./images/avatar.jpg" alt="" class="testimonial-avatar" />
+            <p class="testimonial-name">Priya Nair</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+          Maneesh helped us structure and design the Xo Grow platform clearly.
+        The step-by-step flow and call-to-action sections made the user journey
+        easy to understand, especially on mobile devices.
+          </p>
+          <div class="testimonial-user">
+            <img src="./images/avatar2.jpg" alt="" class="testimonial-avatar" />
+            <p class="testimonial-name">Rohit Verma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT PREVIEW -->
+    <section class="about-preview" id="about">
+      <div class="about-wrapper">
+        <div class="about-heading">
+          <h1>About me</h1>
+        </div>
+
+        <div class="about-content">
+          <p class="about-intro">
+               I’m a junior front-end developer with a strong foundation in HTML, CSS, JavaScript, and React.
+          </p>
+          <p class="about-description">
+          I enjoy building responsive, user-friendly interfaces and turning ideas into clean, functional web experiences. I’ve worked on real-world projects like lightweight e-commerce platforms and business landing pages, focusing on reusable components, performance, and clear UI structure. I’m comfortable working with modern tools such as React, Tailwind CSS, REST APIs, and Git, and I’m always learning by building and experimenting. I care about writing clean code, improving usability, and growing through hands-on projects.
+          </p>
+          <a href="./about.html" class="about-link">More about me</a>
+          <img class="home-about-image" src="./images/image 25.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER / CONTACT -->
+    <footer class="site-footer" id="footer">
+      <div class="footer-wrapper">
+        <div class="footer-info">
+          <div class="footer-text">
+            <p class="footer-title">Let’s connect</p>
+            <p class="footer-email">
+              Say hello at <span> nmaneesh72@gmail.com</span> For more info,
+              here’s my
+              <span> resume</span>
+            </p>
+          </div>
+
+          <div class="footer-socials">
+            <div class="social-icon-container">
+              <a href="https://www.linkedin.com/in/maneesh-n-429b76262/"> <img src="./images/linkedin (1).png" alt="" /></a>
+            </div>
+            <div class="social-icon-container">
+              <a href="https://github.com/nmaneesh-1"> <img src="./images/github-logo (1).png" alt="" /></a>
+            </div>
+            <div class="social-icon-container">
+              <a href=""> <img src="./images/twitter (1).png" alt="" /></a>
+            </div>
+            <div class="social-icon-container">
+              <a href=""> <img src="./images/instagram (1).png" alt="" /></a>
+            </div>
+          </div>
+          <p class="copy-rights">© 2023 Maneesh</p>
+        </div>
+
+        <div class="footer-form">
+          <form action="" method="post">
+         
+              
+              <div>
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                  placeholder="name"
+                />
+                <span class="error-message" id="name-error"></span>
+              </div>
+           
+
+            <div>
+              <label for="user-email">Email</label>
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                required
+                placeholder="your@email.com"
+              />
+              <span class="error-message" id="email-error"></span>
+            </div>
+           
+            <div>
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                name=subject"
+                id="subject"
+                required
+               
+              /><span class="error-message" id="subject-error"></span>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Leave us a Message.."
+              ></textarea
+              ><span class="error-message" id="message-error"></span>
+            </div>
+           
+           
+            <button type="submit" class="form-submit">SUBMIT</button>
+          </form>
+        </div>
+        <p class="mobile-copy-rights">© 2023 Maneesh</p>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
